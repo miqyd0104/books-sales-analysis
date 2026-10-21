@@ -1,0 +1,23 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+# Local IDE and operating-system settings
+.idea/
+.DS_Store
+# Credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+# Downloaded data and generated files (keep documentation)
+data/raw/*
+!data/raw/README.md
+!data/raw/manifest.json
+data/processed/*
+!data/processed/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
