@@ -1,0 +1,5 @@
+genre,books,median_units,mean_units,matching_books,matching_median_units
+children,15,5265.0,19874.533333333333,3,249.0
+fiction,62,4280.0,8800.935483870968,20,256.0
+nonfiction,171,4212.0,9559.994152046784,57,365.0
+genre fiction,822,3299.5,9581.306569343065,364,455.5

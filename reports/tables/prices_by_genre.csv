@@ -1,0 +1,5 @@
+genre,books,median_price,lower_quartile,upper_quartile,min_price,max_price
+children,15,6.15,5.025,7.265,1.99,9.99
+nonfiction,171,4.99,1.99,8.795,0.99,14.44
+fiction,62,3.99,2.4275,7.99,0.99,11.99
+genre fiction,822,3.99,1.99,6.83,0.99,33.86

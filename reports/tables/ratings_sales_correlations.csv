@@ -1,0 +1,4 @@
+comparison,records,correlation
+All records: Pearson,1070,-0.008516131137630056
+All records: Spearman,1070,0.0005433126837919402
+Matching sales records: Spearman,444,0.03085355069678689
