@@ -1,0 +1,12 @@
+{
+  "dataset": "thedevastator/books-sales-and-ratings",
+  "source_url": "https://www.kaggle.com/datasets/thedevastator/books-sales-and-ratings",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/thedevastator/books-sales-and-ratings",
+  "download_date": "2026-10-21",
+  "source_last_updated": "2023-12-06T04:54:33.203Z",
+  "filename": "Books_Data_Clean.csv",
+  "sha256": "35da57a95854412d2f3ac18e99eb50d3a7433b387c1530e875578e85af9aab99",
+  "initial_rows": 1070,
+  "initial_columns": 15,
+  "license_metadata": "Other (specified in description)"
+}
