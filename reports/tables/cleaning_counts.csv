@@ -1,0 +1,11 @@
+check,count
+rows before cleaning,1070
+rows after cleaning,1070
+missing book names retained,23
+unknown language groups,53
+missing publishing years retained,1
+negative publishing years flagged,6
+possible title encoding issues flagged,20
+sales values that match,444
+sales values that do not match,626
+zero publisher revenues retained,372

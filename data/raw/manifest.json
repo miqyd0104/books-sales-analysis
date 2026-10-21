@@ -8,5 +8,8 @@
   "sha256": "35da57a95854412d2f3ac18e99eb50d3a7433b387c1530e875578e85af9aab99",
   "initial_rows": 1070,
   "initial_columns": 15,
-  "license_metadata": "Other (specified in description)"
+  "license_metadata": "Other (specified in description)",
+  "source_version": 2,
+  "original_credit": "Josh Murrey",
+  "original_credit_url": "https://data.world/josh-nbu"
 }

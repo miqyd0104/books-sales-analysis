@@ -21,3 +21,6 @@ data/processed/*
 !data/processed/.gitkeep
 reports/figures/*
 !reports/figures/.gitkeep
+
+# Include the final charts in GitHub
+!reports/figures/*.png

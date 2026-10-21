@@ -1,0 +1,16 @@
+column,type,missing,missing_percent,unique_values
+'index',int64,0,0.0,1070
+'Publishing Year',float64,1,0.09,150
+'Book Name',str,23,2.15,1045
+'Author',str,0,0.0,735
+'language_code',str,53,4.95,8
+'Author_Rating',str,0,0.0,4
+'Book_average_rating',float64,0,0.0,134
+'Book_ratings_count',int64,0,0.0,1064
+'genre',str,0,0.0,4
+'gross sales',float64,0,0.0,831
+'publisher revenue',float64,0,0.0,610
+'sale price',float64,0,0.0,149
+'sales rank',int64,0,0.0,865
+'Publisher ',str,0,0.0,9
+'units sold',int64,0,0.0,491
