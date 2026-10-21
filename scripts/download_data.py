@@ -3,6 +3,8 @@ from pathlib import Path
 import hashlib
 import io
 import json
+import ssl
+import certifi
 import urllib.error
 import urllib.request
 import zipfile
@@ -17,7 +19,7 @@ def main():
     else:
         request = urllib.request.Request(manifest["download_url"], headers={"User-Agent": "books-sales-analysis/1.0"})
         try:
-            with urllib.request.urlopen(request, timeout=60) as response:
+            with urllib.request.urlopen(request, timeout=60, context=ssl.create_default_context(cafile=certifi.where())) as response:
                 archive = response.read()
             with zipfile.ZipFile(io.BytesIO(archive)) as dataset:
                 content = dataset.read(manifest["filename"])
