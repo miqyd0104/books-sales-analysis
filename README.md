@@ -48,9 +48,19 @@ source .venv/bin/activate
 python -m pip install -r requirements-lock.txt
 python scripts/download_data.py
 python -m ipykernel install --prefix .venv --name books-sales-analysis --display-name "Books sales analysis"
-python -m jupyter lab
+python -m jupyter lab notebooks/01_books_exploration.ipynb
 ```
 
 In PyCharm, choose `.venv/bin/python` as the interpreter and open `notebooks/01_books_exploration.ipynb`. Select the **Books sales analysis** kernel if asked, then run the cells from the top.
+
+### Opening it from the PyCharm terminal
+
+If the terminal is in the project folder and shows `(.venv)`, type:
+
+```bash
+python -m jupyter lab notebooks/01_books_exploration.ipynb
+```
+
+This opens the notebook in your browser. Keep the terminal running while using it. If `(.venv)` is not showing, run `source .venv/bin/activate` first.
 
 The notebook saves the cleaned CSV in `data/processed/` and recreates the charts, summary tables and findings report. Raw and cleaned CSVs stay local; the source and download details are in `data/raw/`.
